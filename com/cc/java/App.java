@@ -23,7 +23,9 @@ public class App {
        pollObj(queen);
        pollObj(worker);
        pollObj(drone);
-        
+
+       HoneyBee bee = new HoneyBee();
+       pollObj(bee);
     }
 
     // --- 3. Iteration :: Polymorphie ---//
